@@ -22,7 +22,7 @@ exploreButton.addEventListener('click', function(){
         ui.clearSelectedProductsContainer('.ourproductslist ul')
     }
 
-    request.exploreProductsRequest('/productslist.json').then((res) => {
+    request.exploreProductsRequest('productslist.json').then((res) => {
 
         res.forEach(data => {
 
