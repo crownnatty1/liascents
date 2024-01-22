@@ -22,7 +22,7 @@ exploreButton.addEventListener('click', function(){
         ui.clearSelectedProductsContainer('.ourproductslist ul')
     }
 
-    request.exploreProductsRequest('productslist.json').then((res) => {
+    request.exploreProductsRequest('/productslist.json').then((res) => {
 
         res.forEach(data => {
 
@@ -47,7 +47,7 @@ productsList.addEventListener('click', function(e){
 
         const targetProduct = e.target.parentElement.id
 
-        request.getProduct('/products.json').then((res) => {
+        request.getProduct('products.json').then((res) => {
 
             res.forEach(data => {
 
@@ -113,7 +113,7 @@ menulist[1].addEventListener('click', function(e){
         ui.clearSelectedProductsContainer('.ourproductslist ul')
     }
 
-    request.exploreProductsRequest('/productslist.json').then((res) => {
+    request.exploreProductsRequest('productslist.json').then((res) => {
 
         res.forEach(data => {
 
