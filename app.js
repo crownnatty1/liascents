@@ -101,6 +101,8 @@ menulist[0].addEventListener('click', function(e){
 
     main.classList.remove('menu-up')
 
+    window.location.reload()
+
     e.preventDefault()
 })
 
