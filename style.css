@@ -1787,7 +1787,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
-
     }
     .manymoreimg img{
         aspect-ratio: 5/5;
@@ -1909,122 +1908,6 @@
         transition: all 1s ease;
         color: #7D18CC;
     }
-    .testimonials{
-        margin-top: 20px;
-    }
-    .testimonials h3{
-        color: #037456;
-        text-align: center;
-        font-weight: 600;
-    }
-    .testimonialscontainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
-    }
-    .person{
-        display: flex;
-        justify-content: space-evenly;
-        width: 95%;
-        margin-left: 2.5%;
-        margin-top: 20px;
-        background: linear-gradient(90deg, #3a636d,#023a37);
-        background-color: #bad7f9;
-        transition: all 1s ease;
-    }
-    .person img{
-        width: 40%;
-        height: 120px;
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-    .firsttestimonials img{
-        margin-top: 10%;
-        width: 35%;
-        border-radius: 50%;
-    }
-    .firsttestimonials h1:nth-of-type(2){
-        margin-left: 20px;
-        color: #fff;
-        font-weight: 900;
-    }
-    .firsttestimonials h1:first-child{
-        margin-top: 10px;
-        margin-left: 10px;
-        color: #fff;
-        font-weight: 900;
-    }
-    .secondtestimonials h1:first-child{
-        margin-top: 10px;
-        margin-left: 20px;
-        font-weight: 900;
-    }
-    .secondtestimonials h1:nth-of-type(2){
-        margin-left: 20px;
-        font-weight: 900;
-    }
-    .secondtestimonials img{
-        margin-top: 10%;
-        width: 35%;
-        border-radius: 50%;
-    }
-    .thirdtestimonials img{
-        margin-top: 10%;
-        width: 35%;
-        border-radius: 50%;
-    }
-    .thirdtestimonials h1:first-child{
-        margin-top: 10px;
-        margin-left: 20px;
-        font-weight: 900;
-    }
-    .thirdtestimonials h1:nth-of-type(2){
-        margin-left: 20px;
-        font-weight: 900;
-    }
-    .fourthtestimonials img{
-        width: 32%;
-        margin-top: 10%;
-        border-radius: 50%;
-    }
-    .fourthtestimonials h1:first-child{
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-    .fourthtestimonials h1:nth-of-type(2){
-        margin-left: 20px;
-    }
-    .fifttestimonials{
-        grid-column: span 2 / auto;
-        width: 70%;
-        margin-left: 20%;
-    }
-    .fifttestimonials img{
-        width: 35%;
-        margin-top: 10%;
-        border-radius: 50%;
-    }
-    .fifttestimonials h1:first-child{
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-    .fifttestimonials h1:nth-of-type(2){
-        margin-left: 20px;
-    }
-    .person h1{
-        color: #5cbcf0;
-    }
-    .person p{
-        font-size: 14px;
-        margin-left: 12px;
-        color: #fff;
-        text-align: center;
-    }
-    .stars{
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 10px;
-    }
     .ourproductslist{
         margin-top: 20px;
         background: transparent;
@@ -2045,14 +1928,11 @@
     .ourproductslist ul li{
         margin-top: 20px;
         display: block;
-        height: 300px;
-        overflow-y: scroll;
-        border: 2px solid #bad7f9;
         width: 95%;
-        background: linear-gradient(45deg,#037456,#132e35);
     }
     .ourproductslist ul li img{
         width: 60%;
+        aspect-ratio: 5/4;
         margin-left: 20%;
         border-radius: 5px;
         margin-top: 10px;
@@ -2069,113 +1949,16 @@
     }
     .ourproductslist ul li h4{
         text-align: center;
-    }
-    .ourproductslist ul li button{
-        width: 120px;
-        height: 30px;
-        margin: 10px 0px 5px 28%;
-        /* background: linear-gradient(to right,#bad7f9,#ff006a); */
-        background-color: #5cbcf0;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        color: #fff;
-    }
-    .ourproductslist ul li button:focus{
-        border: 2px solid #dfdfdf;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(1){
-        animation: bounceFromBottom 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(2){
-        animation: bounceFromLeft 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(3){
-        animation: bounceFromRigth 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(4){
-        animation: bounceFromTop 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(5){
-        animation: bounceFromBack 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(6){
-        animation: fadeInBack 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(7){
-        animation: scaleInCenter 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(8){
-        animation: Blink1 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(9){
-        animation: Blink2 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(10){
-        animation: bounceFromLeft 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(11){
-        animation: bounceFromRigth 2s ease 0s 1 normal forwards;
-    }
-    .ourproductslist ul li.productlist:nth-of-type(12){
-        animation: bounceFromBack 2s ease 0s 1 normal forwards;
+        font-size: 14px;
     }
     .ourproducts{
         margin-top: 20px;
         background-color: #474747;
-        /* background: url(images/bgg7.jpg); */
     }
-    .ourproducts .perfumesproducts h3{
+    .ourproducts .perfumesproducts > h3{
         color: #5cbcf0;
         text-align: center;
-        padding-top: 10px;
-    }
-    .ourproducts .perfumesproducts .popularperfumes h3{
-        color: #bad7f9;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers{
-        background: linear-gradient(45deg, #5cbcf0,#7D18CC);
-        display: flex;
-        overflow-x: scroll;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells{
-        border: 2px solid #3a636d;
-        width: 300px;
-        margin-left: 10px;
-        margin-top: 10px;
-        transition: all 1s ease;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells:hover{
-        opacity: .5;
-        transition: all 1s ease;
-        box-shadow: 0px 0px 10px 3px;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells div button{
-        width: 90px;
-        margin-left: 28%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        height: 30px;
-        background: linear-gradient(45deg,#7D18CC,#5cbcf0);
-        border: 2px solid #bad7f9;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells img{
-        width: 200px;
-        /* margin-left: 5%; */
-        aspect-ratio: 5/4.6;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells div h2{
-        color: #fff;
-        text-align: center;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells div h5{
-        color: #5cbcf0;
-        font-size: 16px;
-        font-weight: 550;
-        text-align: center;
-    }
-    .ourproducts .perfumesproducts .popularperfumes .bestsellers .bestsells div h4{
-        text-align: center;
+        padding-top: 5px;
     }
     .ourproducts .perfumesproducts .otherperfumes{
         margin-top: 10px;
@@ -2184,9 +1967,7 @@
         grid-column-gap: 20px;
     }
     .ourproducts .perfumesproducts .otherperfumes .otherperfume{
-        /* width: 50%; */
         margin-left: 0%;
-        /* border: 2px solid #fff; */
         margin-top: 20px;
         background: url(images/blob-haikei.png) no-repeat;
         transition: all 1s ease;
@@ -2198,10 +1979,11 @@
     .ourproducts .perfumesproducts .otherperfumes .otherperfume img{
         width: 80%;
         margin-left: 10%;
+        aspect-ratio: 5/5;
     }
     .ourproducts .perfumesproducts .otherperfumes .otherperfume h4{
         text-align: center;
-        color: #132e35;
+        color: #dfdfdf;
     }
     .ourproducts .perfumesproducts .otherperfumes .otherperfume button{
         width: 90px;
