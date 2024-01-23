@@ -78,7 +78,7 @@ class Ui{
                 <img src="${products.src}" alt="">
                 <div>
                     <h4>${products.name}</h4>
-                    <h4>Price: Products Price is let known to you during contact with products manager</h4>                                
+                    <h4>Price: Chat with the product ownner </h4>                                
                     <button>Place Order</button>
                 </div>
             </div>
