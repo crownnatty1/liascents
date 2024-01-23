@@ -6,7 +6,7 @@ const request = new HttpRequest()
 document.addEventListener('DOMContentLoaded', function(){
     ui.displayElement('none', '.ourproductslist')
     ui.displayElement('none', '.ourproducts')
-    ui.displayElement('none', '.searchingproducts')
+    // ui.displayElement('none', '.searchingproducts')
     ui.displayElement('none', '.sellstage')
     document.querySelector('.home').scrollIntoView()
 })
